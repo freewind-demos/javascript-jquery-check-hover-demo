@@ -1,6 +1,9 @@
-Js Hello World Demo
-===================
+JavaScript JQuery Check Hover Demo
+==================================
 
-Open `index.html` in your browser.
+jquery的`.is(':hover')`不可靠，只对`<a>`这样的有`hover`状态的元素有用，对`<div>`无效。
 
-You will see "Hello, JS!" on the page.
+```
+npm install
+npm run demo
+```
